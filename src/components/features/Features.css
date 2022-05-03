@@ -1,0 +1,37 @@
+.features {
+  width: 90%;
+  margin-bottom: 6rem;
+}
+.feature-heading {
+  font-size: 2.5rem;
+  color: var(--heading-one);
+}
+.feature-sub-heading {
+  color: var(--grey-two-color);
+  font-size: 1.1rem;
+}
+.features-card {
+  background-color: var(--bg-grey);
+  height: 250px;
+  border-radius: 0.5rem;
+  padding: 3.5rem 3rem;
+}
+.features-card-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--heading-three);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 0.5rem;
+  font-size: 1rem;
+}
+.features-card-heading {
+  color: var(--grey-fourth-color);
+  font-size: 1.5rem;
+}
+.features-card-sub-heading {
+  color: var(--grey-two-color);
+  margin-bottom: 0rem;
+}

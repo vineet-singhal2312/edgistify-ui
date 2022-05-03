@@ -1,0 +1,44 @@
+.platform-features {
+  margin: 6rem 0rem;
+  width: 100%;
+}
+.feature-heading {
+  font-size: 2.5rem;
+  color: var(--heading-one);
+}
+.feature-sub-heading {
+  color: var(--grey-two-color);
+  font-size: 1.1rem;
+}
+.platform-features-card {
+  width: 40%;
+  height: 320px;
+  background-color: var(--main-color);
+  border-radius: 0.5rem;
+  margin: 2rem 3rem;
+}
+.platform-features-card-left {
+  background-color: var(--main-color);
+}
+.platform-features-card-right {
+  background-color: var(--main-color);
+  padding: 1rem 0.5rem;
+}
+.features-card-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--heading-three);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 0.5rem;
+  font-size: 1rem;
+}
+.features-card-heading {
+  color: var(--grey-fourth-color);
+  font-size: 1.5rem;
+}
+.features-card-sub-heading {
+  color: var(--grey-two-color);
+}

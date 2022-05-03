@@ -1,0 +1,41 @@
+/* .network-img {
+  width: 150px;
+  height: 80px;
+  margin-bottom: 1rem;
+}
+.network-img2 {
+  width: 150px;
+  height: 150px;
+  margin-right: 1.25rem;
+} */
+.compony-network {
+  width: 90%;
+  margin-bottom: 5rem;
+}
+.network-img {
+  width: 120px;
+  height: 75px;
+  margin: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .compony-network-heading {
+    font-size: 0.75rem;
+    margin-bottom: 3rem;
+  }
+  .network-img1 {
+    width: 100px;
+    height: 60px;
+    /* margin-right: 1.25rem;
+     */
+    margin-bottom: 1rem;
+  }
+  .network-img2 {
+    width: 100px;
+    height: 100px;
+    /* margin-right: 1.25rem; */
+  }
+  .network-img {
+    width: 150px;
+    height: 100px;
+  }
+}

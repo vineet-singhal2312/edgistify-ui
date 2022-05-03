@@ -1,38 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Rubik&display=swap");
 .App {
   text-align: center;
+  background-color: var(--second-color);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  /* font-family: "IBM Plex Sans Arabic", sans-serif; */
+  font-family: "Rubik", sans-serif;
+}
+:root {
+  --main-color: #00b2a0;
+  --second-color: rgb(249, 249, 249);
+  --white-color: #fff;
+  --bg-grey: #dcdcdc;
+  --grey-one-color: #f1f1f1;
+  --grey-two-color: #707574;
+  --grey-third-color: #b1b4b3;
+  --grey-fourth-color: #495050;
+  --heading-one: #081f37;
+  --heading-two: #4f46e5;
+  --heading-three: #2772db;
+  --yellow-color: #f5e553;
+  --blue-light-color: #e6f0ff;
+  --green-light-color: #e6fff2;
+  --pink-light-color: #ffe6f2;
+  --red-light-color: #ffebe6;
+  --yellow-light-color: #ffffe6;
+  --purple-light-color: #f9e6ff;
+  --skyblue-light-color: #e6ffff;
+  --orange-light-color: #fff2e6;
+  --purple-dark-color: #ff80ff;
+  --skyblue-dark-color: #0086b3;
+  --red-dark-color: #ff6666;
+  --blue-dark-color: #3399ff;
+}
+.bg-banner1 {
+  background-image: url("./images/Landscape-Transparent-Background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-xxl {
+  max-width: 1540px;
+  padding: 0;
+}
+.btn {
+  margin: 0.5rem !important;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: var(--heading-two) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-fluid {
+  padding: 0 !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.row {
+  margin: 0;
 }
-
-.App-link {
-  color: #61dafb;
+.link {
+  text-decoration: none;
+  color: #2772db;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#icon {
+  color: #ffffff;
+  font-size: 1.5rem;
 }

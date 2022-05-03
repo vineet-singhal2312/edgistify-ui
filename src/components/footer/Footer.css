@@ -1,0 +1,22 @@
+.footer {
+  color: var(--grey-two-color);
+}
+.list {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.list-item {
+  margin: 0rem 1.5rem;
+}
+#footer-icon {
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 600px) {
+  .list-item {
+    margin: 0rem 0.5rem;
+  }
+  .footer {
+    font-size: 0.75rem;
+  }
+}

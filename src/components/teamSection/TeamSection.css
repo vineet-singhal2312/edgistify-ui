@@ -1,0 +1,108 @@
+.team-section-top {
+  width: 100%;
+}
+.team-section-heading {
+  color: var(--heading-two);
+}
+.team-section-heading-div {
+  padding: 1.5rem 7rem;
+}
+.team-section-sub-heading {
+  width: 50%;
+  text-align: initial;
+  font-weigth: 600;
+  color: var(--heading-one);
+}
+.team-section-heading-bg-color {
+  height: 5rem;
+  background-color: var(--blue-light-color);
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+}
+.card-container {
+  width: 90%;
+}
+.team-member-card {
+  height: 325px;
+}
+.team-member-card-img-div {
+  width: 225px;
+  height: 225px;
+  border-top-left-radius: 999px;
+  border-bottom-left-radius: 999px;
+  border-bottom-right-radius: 999px;
+}
+.team-member-img {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.team-member-card-heading {
+  margin-top: 1rem;
+}
+.team-member-card-sub-heading {
+  color: var(--heading-two);
+  margin-bottom: 0.25rem;
+}
+#team-member-card-icon {
+  color: var(--grey-two-color);
+  font-size: 1.75rem;
+}
+.bgBlue {
+  background-color: var(--blue-light-color);
+}
+.bgRed {
+  background-color: var(--red-light-color);
+}
+.bgGreen {
+  background-color: var(--green-light-color);
+}
+.bgyellow {
+  background-color: var(--yellow-light-color);
+}
+.bgOrange {
+  background-color: var(--orange-light-color);
+}
+.bgSkyblue {
+  background-color: var(--skyblue-light-color);
+}
+.bgPurple {
+  background-color: var(--purple-light-color);
+}
+.bgPink {
+  background-color: var(--pink-light-color);
+}
+@media only screen and (max-width: 600px) {
+  .team-section-sub-heading {
+    width: 90%;
+    font-size: 1rem;
+  }
+  .team-member-card {
+    width: 150px;
+    height: 225px;
+  }
+  .team-section-heading-div {
+    padding: 0.5rem 2rem;
+  }
+  .team-member-img {
+    width: 50%;
+  }
+  .team-member-card-img-div {
+    width: 100px;
+    height: 100px;
+  }
+  .team-member-img {
+    width: 75px;
+    height: 75px;
+  }
+  .team-member-card-heading {
+    font-size: 1rem;
+  }
+  .team-member-card-sub-heading {
+    font-size: 0.75rem;
+  }
+  #team-member-card-icon {
+    font-size: 1.25rem;
+  }
+}

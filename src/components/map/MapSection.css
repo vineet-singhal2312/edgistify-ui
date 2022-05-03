@@ -1,0 +1,15 @@
+.map-section-div {
+  padding: 4rem 2rem;
+  margin: 3rem 0rem;
+  background-color: Transparent;
+}
+.map-section {
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map {
+  height: 120vh;
+  width: 50vw;
+}

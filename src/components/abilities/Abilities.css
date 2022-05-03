@@ -1,0 +1,44 @@
+.Abilities {
+  width: 85%;
+  /* margin: 0rem 6rem; */
+  margin-bottom: 8rem;
+  margin-top: 6rem;
+}
+.feature-heading {
+  font-size: 2.5rem;
+  color: var(--heading-one);
+}
+.feature-sub-heading {
+  color: var(--grey-two-color);
+  font-size: 1.1rem;
+}
+.Abilities-card {
+  background-color: Transparent;
+  height: 450px;
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+}
+.Abilities-card-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--heading-three);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 0.5rem;
+  font-size: 1rem;
+}
+.Abilities-card-heading {
+  color: #333;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-top: 2.5rem;
+}
+.Abilities-card-sub-heading {
+  color: "#333";
+  margin-bottom: 0rem;
+  /* margin-top: 1.5rem; */
+  font-size: 1.25rem;
+  font-weight: 600;
+}

@@ -1,0 +1,15 @@
+.working-flow {
+  width: 65%;
+  margin: 5rem auto;
+  font-size: 1.25rem;
+}
+.working-flow-images {
+  position: relative;
+}
+.line-arrow {
+  background-color: grey;
+  border: 1px solid grey;
+  height: 30px;
+  position: absolute;
+  top: -1rem;
+}
